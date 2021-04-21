@@ -1,0 +1,64 @@
+h1{
+    color:gray!important;
+    padding: 2%;
+}
+h1.textFromNavbar{
+    color:white!important;
+}
+
+label.user{
+    color:white!important
+}
+label.password{
+    color:white!important
+}
+.bg-black {
+    background-color: #161616 !important;
+}
+
+footer{padding:5rem 0}
+
+img{
+    height:100px;
+    width:20%;
+    padding: 2%;
+}
+
+.container{
+    padding: 1%; 
+}
+.myContainer{
+    padding-top: 1%;
+    padding-left: 2%;
+}
+
+body{
+    background-color: whitesmoke!important;
+}
+.card{
+    background-color: burlywood!important;
+    border-color: beige!important;
+    border-style: dashed!important;
+    height: auto;
+    width: auto;
+}
+p{
+    padding-left: 2%;
+}
+
+a.linkWiki{
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
+label.linkWiki{
+    padding-left: 2%;
+    color: #161616!important;
+}
+
+form.myEditForm{
+    padding-left: 5%;
+}
+form.myAddForm{
+    padding-left: 5%;
+}

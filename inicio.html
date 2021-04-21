@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Anales de la Ciencia</title>
+        <script defer type="text/javascript" src="./inicio.js"></script>
+        <link rel="stylesheet" type="text/css" href="./styles.css"/> 
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    </head>
+    <body onload="loadCredentials();">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                        <h1 class="textFromNavbar">Anales de la ciencia</h1>
+                </div>
+                <form id="loginForm" onsubmit="validateLogin()">
+                    <label class="user" for="user">Usuario</label>
+                    <input type="text" id="user">
+                    <label class="password" for="password">Contraseña</label>
+                    <input type="password" id="password">
+                    <button class="btn btn-success" type="submit" id="loginButton">Login</button>
+                </form>
+            </div>
+        </nav>
+        <main>
+            <div class="container mx-auto text-center">
+                <div class="container" id="products"></div>
+                <div class="container" id="scientists"></div>
+                <div class="container" id="entities"></div>
+            </div>
+        </main>
+        <footer class="bg-black small text-center text-white-50">
+            <p>Copyright &copy; TDW Website 2021</p>
+        </footer>
+    </body>
+</html>
